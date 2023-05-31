@@ -9,7 +9,8 @@
 <body>
     <h3>Deseja realmente excluir esse aluno?</h3>
 
-    <form action="">
+    <form action="funcoes/deletar.php" method="post">
+        <input type="hidden" name="id" value="<?php echo($_GET['id']); ?>">
         <a href="index.php">Não</a>
         <input type="submit" value="Sim">
     </form>
