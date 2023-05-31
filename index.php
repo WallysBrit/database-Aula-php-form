@@ -38,8 +38,8 @@
                 <td><?php print ($aluno->cpf); ?></td>
                 <td> 
 
-               <a href="editar.php">Editar </a>-
-               <a href="excluir.php">Excluir</a>
+               <a href="editar.php?id=<?php echo($aluno->id) ?>">Editar </a>-
+               <a href="excluir.php?id=<?php echo($aluno->id) ?>">Excluir</a>
 
                </td>
             </tr>
