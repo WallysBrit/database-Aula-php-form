@@ -8,7 +8,7 @@
 </head>
 <body>
     <h3>Cadastro de novo aluno</h3>
-    <form action="" method='POST'>
+    <form action="funcoes/cadastrar.php" method='post'>
         <label for="mat">Matrícula:</label>
         <br>
         <input type="number" id = "mat" name='matricula' placeholder='Digite o número'>
